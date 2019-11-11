@@ -1,0 +1,369 @@
+html,body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    background-color: #F5F5F5;
+}
+
+#logo{
+    float: left;
+    display: inline-block;
+    width: 140px;
+    padding: 12px 150px;
+}
+
+.clear{
+    clear: both;
+
+}
+.navbar-wrapper{
+    background-color: #34302D;
+    width: 100%;
+    color: white;
+    border-top: 5px solid #6DB33F ;
+    
+
+}
+.navbar-nav{
+    float: right;
+    list-style: none;
+    text-align: left;
+    margin: 0;
+    padding: 20px 100px;
+    
+
+}
+.navbar-nav li{
+    display: inline-block;
+
+}
+.navbar-nav li a{
+    padding:20px;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+.navbar-nav li a:hover{
+    background-color: #6DB33F;
+}
+.search-wrapper{
+    width: 100%;
+    background-color: white;
+    padding: 30px 200px;
+    display: none;
+    
+
+}
+
+.search-wrapper input{
+    border: none;
+    width: 60%;
+    font-size: x-large;
+    outline: none;
+    
+    
+}
+/**
+    slideshow 
+*/
+.slideshow-container{
+    max-width: 100%;  
+    position: relative;
+    margin: auto;
+
+}
+.text{
+    color: #f2f2f2;
+    font-size: 15;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+
+
+}
+.mySlide{
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 400px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+
+}
+.fade{
+    animation-name: fade;
+    animation-duration: 1s;
+    
+}
+@keyframes fade{
+    from {opacity: 0.5}
+    to {
+        opacity: 1;
+    }
+
+}
+
+/**
+    end slideshow
+*/
+.diagram{
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    padding-top: 50px;
+}
+#diagram-title{
+    font-size: 30px;
+
+}
+/* .fader-diagram-your-app{
+    position: relative;
+    height: 286px;
+
+}
+#fader-diagram-modern-java-gray{
+    position: absolute;
+    height: 238px;
+    width: 800px;
+    margin: 31px auto;
+    background:url('https://spring.io/img/homepage/diagram-modern-java-gray-9a417697a51646e42df7e9d7f024709d.svg') no-repeat;
+    background-size: 100%;
+}
+#fader-diagram-modern-java-color{
+    position: absolute;
+    height: 238px;
+    max-width: 800px;
+    margin: 31px auto;
+    overflow: hidden;
+    width: 200px;
+
+}
+#fader-diagram-modern-java-color div{
+    position: absolute;
+    height: 238px;
+    background: url('https://spring.io/img/homepage/diagram-modern-java-color-e10b7eec68b1fe60eefeab0cf20a20da.svg') no-repeat;
+    background-size: 100%;
+    width: 800px;
+}
+.fader{
+    background-color: #34302d;
+    width: 6px;
+    height: 275px;
+    border-radius: 4px;
+    position: absolute;
+    left: 0;
+}
+#myRange{
+    width: 800px;
+    position: absolute;
+    top: 50%;
+
+}
+ */
+.feature-container{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px 20px;
+}
+.features h1{
+    font-size: 35px;
+    color: #6DB33F;
+
+}
+.features h4{
+    font-size: 15px;
+
+}
+#spring-stack{
+    background: #f2f2f2;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    padding-top: 50px;
+
+
+}
+.spring-stack-title img
+{
+    width: 100px;
+    display: inline-block;
+    vertical-align: middle;
+
+
+}
+.spring-stack-title h1
+{
+    font-size: 30px;
+    font-weight: 300;
+    display: inline-block;
+    vertical-align: middle;
+}
+.spring-stack-stack{
+    padding-top: 20px;
+    /* float: left; */
+    background-color: #f2f2f2;
+}
+
+.spring-stack-stack::after{
+    clear: both;
+    
+}
+.spring-stack-stack img{
+    float: left;
+    width: 50%;
+    margin: 0 1.5%;
+
+
+}
+.spring-stack-stack p{
+    float: left;
+    font-weight: 100;
+    width: 30%;
+    margin: 0 1.5%;
+    
+
+}
+.spring-stack-stack h1{
+    /* float: left;
+     */
+    text-align: center;
+    font-weight: 900;
+    font-size: 20px;
+    margin: 0 1.5%;
+    /* width: px; */
+
+}
+hr{
+    width: 50%;
+
+}
+
+#spring-boot{
+    background: #f2f2f2;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    padding-top: 100px;
+
+}
+.spring-boot-title{
+    display: inline-block;
+    vertical-align: middle;
+
+}
+.spring-boot-title img{
+    width: 100px;
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+.spring-boot-title h1{
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: 100;
+    font-size: 40px;
+    padding-left: 10px;
+
+
+}
+.spring-boot-content{
+    float: left;
+    margin: 0 4%;
+    width: 50%;
+    text-align: justify;
+    font-size: 15px;
+    font-weight: 100;
+
+}
+.spring-boot-content ul{
+    list-style: none;
+
+}
+.spring-boot-content ul li::before{
+    content: "\2212";
+    color: #6DB33F;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.spring-cloud{
+    background: #f2f2f2;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    padding-top: 100px;
+
+}
+#spring-cloud{
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    padding-top: 100px;
+
+}
+#spring-cloud p{
+    font-weight: 100;
+}
+#spring-cloud img{
+    padding-top: 100px;
+
+}
+.cloud-features{
+    padding-top: 100px;
+
+    display: flex;
+    /* flex-direction: row; */
+    height: 100%;
+    align-content: stretch;
+    flex-wrap: wrap;
+
+}
+.cloud-features div{
+    width: 30%;
+
+}
+.cloud-features div a{
+    display: block;
+    color: #6DB33F;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+
+}
+#spring-data-flow{
+    padding-top: 100px;
+
+    text-align: center;
+    display: inline-block;
+
+    width: 100%;
+}
+.footer{
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #34302D;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    
+
+}
+.footer a{
+    color: #f2f2f2;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 15px;
+
+
+}
+.footer p{
+    color: #f2f2f2;
+    font-size: 15px;
+
+}
